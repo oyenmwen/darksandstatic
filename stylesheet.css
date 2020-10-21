@@ -1,0 +1,147 @@
+html, body{
+    color: #1e2022;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: #BD7328 !important;
+
+    font-size: 1.5em;
+
+}
+
+.info{
+    background-color: #3755BE;
+    height:800px;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    background-image: url("blob-blue.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 1000px -300px;
+}
+
+.get-started{
+  font-weight: bolder;
+  background-color: #1a203b;
+}
+
+h1,h3{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+
+}
+
+h3{
+  font-size: 2.6em;
+}
+
+.jumbotron h2,h4{
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.7;
+}
+
+.bg-orange{
+  background-color: #BD7328;
+  background-color: #fed385;
+}
+
+.orange{
+  color: #BD7328;
+}
+
+.btn-outline-primary{
+  border-width: 2px;
+}
+
+.jumbotron{
+
+    background-image: url("blob3.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 450px;
+
+}
+#blob{
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  width: 50%;
+}
+
+// #1972ec
+
+u{
+  text-decoration: underline;
+  text-decoration-color: #BD7328;
+  text-decoration-style: solid;
+}
+
+footer .container-fluid{
+  background-color: #333C46;
+  margin-top: 15%;
+}
+
+ul{
+  list-style-type: none;
+}
+
+footer a, footer a:hover{
+  color: white;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .mobile-gone{
+    display: none;
+  }
+
+  .btn-mobile{
+    width: 100%;
+    display:block;
+  }
+
+  .navbar-brand{
+  width: 82%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .jumbotron{
+      background-image: none;
+  }
+
+  .info{
+    height: auto;
+      border-bottom-left-radius:0%;
+      border-bottom-right-radius:0%;
+      background-position: 250px -150px;
+  }
+
+  footer img{
+    width: 150%;
+  }
+
+}
+
+@media only screen and (max-width: 990px) {
+  .navbar-brand{
+  width: 82%;
+    margin: 0;
+    padding: 0;
+  }
+
+.mobile-md-gone{
+  display: none;
+}
+
+footer img{
+  width: 40%;
+}
+
+}
